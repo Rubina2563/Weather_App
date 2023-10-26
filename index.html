@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="weather-input">
             <h3>Enter a city name</h3>
-            <input type="text" placeholder="Eg. London , New York , Delhi">
+            <input class="cityInput" type="text" placeholder="Eg. London , New York , Delhi">
             <button class="search-btn">Search</button>       
 
             <div class="separator"></div>
@@ -26,7 +27,7 @@
         <div class="weather-data">
             <div class="current-weather">
                 <div class="details">
-                    <h4>London</h4>
+                    <h2>London</h2>
                     <h4>Temperature</h4>
                     <h4>Humdity</h4>
                     <h4>Wind</h4>
@@ -37,6 +38,47 @@
                      <h4>Moderate rain</h4>
                 </div>
                 
+            </div>
+
+            <div class="days-forcast">
+                <h2>5 Days Forcast</h2>
+                <ul class="weather-cards">
+                    <li class="cards">
+                        <h3>Day 1</h3>
+                        <img src="./rainy-day-and-sun-liner-fill-icon-Graphics-1-580x386.jpgainyDay.jpg" alt="icon1">
+                        <h4>Temperature</h4>
+                        <h4>Humidity</h4>
+                        <h4>Wind</h4></li>
+
+                        <li class="cards">
+                            <h3>Day 1</h3>
+                            <img src="./rainy-day-and-sun-liner-fill-icon-Graphics-1-580x386.jpgainyDay.jpg" alt="icon1">
+                            <h4>Temperature</h4>
+                            <h4>Humidity</h4>
+                            <h4>Wind</h4></li>
+
+                            <li class="cards">
+                                <h3>Day 1</h3>
+                                <img src="./rainy-day-and-sun-liner-fill-icon-Graphics-1-580x386.jpgainyDay.jpg" alt="icon1">
+                                <h4>Temperature</h4>
+                                <h4>Humidity</h4>
+                                <h4>Wind</h4></li>
+
+                                <li class="cards">
+                                    <h3>Day 1</h3>
+                                    <img src="./rainy-day-and-sun-liner-fill-icon-Graphics-1-580x386.jpgainyDay.jpg" alt="icon1">
+                                    <h4>Temperature</h4>
+                                    <h4>Humidity</h4>
+                                    <h4>Wind</h4></li>
+
+                                    <li class="cards">
+                                        <h3>Day 1</h3>
+                                        <img src="./rainy-day-and-sun-liner-fill-icon-Graphics-1-580x386.jpgainyDay.jpg" alt="icon1">
+                                        <h4>Temperature</h4>
+                                        <h4>Humidity</h4>
+                                        <h4>Wind</h4></li>
+                    </ul>
+                </div>
             </div>
 
         </div>
